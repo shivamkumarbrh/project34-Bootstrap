@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Itim', cursive;
+}
+body{
+    background-color: #f1f1f1 !important;
+}
+.wholeContainer{
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+.leftPartImg{
+    border-radius: none;
+}
+.leftPart{
+    width: 69% !important;
+    margin: 0px;
+}
+.rightPart{
+    width: 29% !important;
+    margin: 0px;
+}
+.leftPartContent{
+    background-color: white ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.4) !important;
+}
+.leftPartContent img{
+    width: 100%;
+    max-height: 50vh;
+    object-fit: cover;
+}
+.cardBtn{
+    padding: 10px 16px !important;
+    border-radius: none;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: none !important;
+}
+.cardBtn:hover{
+    background-color: #aaa;
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.cardList,.cardRightFirst,.cardRigthThird{
+    border-radius: none !important;
+box-shadow: 0px 0px 10px rgba(0, 0, 0,0.4) !important;
+}
+.cardList li{
+    list-style: none;
+    border-bottom: 1px solid #aaa;
+}
+.cardList li:hover{
+    background-color: #aaa;
+}
+.cardList li:first-child,.cardList li:last-child{
+    border-bottom: 0px;
+}
+.card li img{
+    object-fit: cover;
+    height: 50px;
+}
+.cardRigthThird li{
+    list-style: none;
+}
+.cardRigthThird li span{
+    background-color: #ddd;
+    margin: 10px 2px !important;
+    display: inline-block;
+}
+.f-bottom{
+    color: white;
+    display: block !important;
+    flex-wrap: wrap !important;
+    background-color: #333;
+}
+.f-bottom button{
+    padding: 8px 12px;
+    border-radius: 0px !important;
+    background-color: black;
+    color: white;
+    box-shadow: none !important;
+}
+.f-bottom button:hover{
+    background-color: #aaa;
+}
